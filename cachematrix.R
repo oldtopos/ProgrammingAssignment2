@@ -8,13 +8,7 @@
 ##
 
 ## 
-##  makeCacheMatrix stores the matrix x and its inverse in the environment
-##  of the function.
-##
-##  set stores the passed matrix and clears the stored inverse
-##  get returnes the passed matrix
-##  setInverse stores the matrix inverse
-##  getInverse returns the stored inverse, or NULL
+##  testCacheInverse run a series of tests iteration times
 ##
 
 testCacheInverse <- function( iterationLimit = 2 )
